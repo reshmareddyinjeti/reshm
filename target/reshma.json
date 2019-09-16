@@ -1,0 +1,134 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10297629087,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "",
+        "description": "",
+        "id": "search;",
+        "after": [
+          {
+            "result": {
+              "duration": 46054,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1946523909,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on Homepage",
+            "match": {
+              "location": "HomeStepDef.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11842448740,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I search for a product \"Tv\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tv",
+                  "offset": 24
+                }
+              ],
+              "location": "HomeStepDef.iSearchForAProduct(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1103294210,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I select the filtered \"Price: Low - High\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Price: Low - High",
+                  "offset": 23
+                }
+              ],
+              "location": "BasketStepDef.iSelectTheFiltered(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4395397298,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I can add the \"product\" to Basket",
+            "match": {
+              "arguments": [
+                {
+                  "val": "product",
+                  "offset": 15
+                }
+              ],
+              "location": "BasketStepDef.iCanAddTheToBasket(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 61103,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I can see the product in tne trolley",
+            "match": {
+              "location": "BasketStepDef.iCanSeeTheProductInTneTrolley()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@basket"
+          }
+        ]
+      }
+    ],
+    "name": "search",
+    "description": "As an end user\nI want to add a product to basket\nSo that i can see the product in basket",
+    "id": "search",
+    "keyword": "Feature",
+    "uri": "Basket.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Search"
+      }
+    ]
+  }
+]
